@@ -1,0 +1,70 @@
+Package: myedit
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Rajalaxmi",
+           family = "S",
+           role = c("aut", "cre"),
+           email = "purviatvipul@gmail.com")
+Description: DE gene analysis.
+Depends:
+    R (>= 3.5.0),
+License: GPL-3 + file LICENSE
+LazyData: true
+Imports:
+    shiny,
+    jsonlite,
+    shinyjs,
+    shinydashboard,
+    shinyBS,
+    gplots,
+    DT,
+    ggplot2,
+    RColorBrewer,
+    annotate,
+    AnnotationDbi,
+    DESeq2,
+    DOSE,
+    igraph,
+    grDevices,
+    graphics,
+    stats,
+    utils,
+    GenomicRanges,
+    IRanges,
+    S4Vectors,
+    SummarizedExperiment,
+    stringi,
+    reshape2,
+    d3heatmap,
+    org.Hs.eg.db,
+    org.Mm.eg.db,
+    limma,
+    edgeR,
+    clusterProfiler,
+    methods,
+    sva,
+    RCurl,
+    enrichplot,
+    colourpicker,
+    plotly,
+    heatmaply,
+    Harman,
+    pathview
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Suggests: testthat,
+    rmarkdown,
+    knitr,
+    R.rsp
+VignetteBuilder: knitr,  R.rsp
+URL: https://github.com/UMMS-Biocore/debrowser
+BugReports: https://github.com/UMMS-Biocore/debrowser/issues/new
+biocViews:
+    Sequencing,
+    ChIPSeq,
+    RNASeq,
+    DifferentialExpression,
+    GeneExpression,
+    Clustering,
+    ImmunoOncology
